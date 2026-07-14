@@ -8,7 +8,8 @@ An automated, serverless vacation approval loop built using Google Forms, Google
 [Employee Form Submit] ──► [OnFormSubmit Trigger] ──► [Interactive HTML Mail Generated]
 │
 ▼
-[Manager Clicks Approved/Denied] ◄─────────────────── [Approve/Deny Buttons]
+[Manager Clicks Approved/Denied]
+[Approve/Deny Buttons]
 │
 ▼
 [GET Request Web App Endpoint] ──► [Writes Status to Spreadsheet] ──► [Alerts Employee]
